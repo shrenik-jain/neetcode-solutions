@@ -1,5 +1,8 @@
 '''
 Question: https://leetcode.com/problems/contains-duplicate/description/
+
+Time Complexity: O(n)
+Space Complexity: O(n)
 '''
 
 class Solution:
@@ -21,10 +24,10 @@ class Solution:
         return False
     
         
-        # Another Solution
-        '''
-        create a set and check its length with original list, if different then contains duplicate
-        since set only stores unique values
-        '''
-        return len(nums) == len(set(nums))
+        # # Another Solution
+        # '''
+        # create a set and check its length with original list, if different then contains duplicate
+        # since set only stores unique values
+        # '''
+        # return len(nums) != len(set(nums))
         
