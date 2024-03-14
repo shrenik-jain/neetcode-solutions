@@ -1,14 +1,14 @@
 '''
-Question: https://leetcode.com/problems/contains-duplicate/description/
-
-Time Complexity: O(n)
-Space Complexity: O(n)
+Question: https://leetcode.com/problems/contains-duplicate/
 '''
 
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         '''
         create a dictionary to store only unique numbers. If number occurs again, it contains duplicate
+
+        Time Complexity: O(n)
+        Space Complexity: O(n)
         '''
         # create a dictionary to store unique numbers as keys
         count_dict = {}

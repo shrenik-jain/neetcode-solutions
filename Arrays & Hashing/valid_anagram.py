@@ -1,8 +1,5 @@
 '''
 Question: https://leetcode.com/problems/valid-anagram/
-
-Time Complexity: O(n)
-Space Complexity: O(n)
 '''
 
 class Solution:
@@ -10,6 +7,9 @@ class Solution:
         '''
         Store characters and their respective counts of both strings in different hashmaps and check if count
         corresponding characters have same count (or even if the character exits in other dictionary) 
+            
+        Time Complexity: O(n)
+        Space Complexity: O(n)
         '''
         # If length is not same then definitely not an anagram
         if len(s) != len(t):
@@ -40,6 +40,9 @@ class Solution:
         # # Another Solution
         # '''
         # iterate over sorted strings and check if both characters are same. If not same, it is not an anagram
+        # 
+        # Time Complexity: O(nlogn) [sorting] + O(n) = O(nlogn)
+        # Space Complexity: O(1) if sorting takes no space else O(n) 
         # '''
 
         # # If length is not same then definitely not an anagram

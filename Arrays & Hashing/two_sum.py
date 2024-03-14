@@ -1,14 +1,14 @@
 '''
 Question: https://leetcode.com/problems/two-sum/
-
-Time Complexity: O(n)
-Space Complexity: O(n)
 '''
 
 class Solution:
     '''
     iterate over the list and store the numbers in a dictionary. If the difference of target and 
     currrent number already present in dictionary then you have the two numbers which add up to the target
+
+    Time Complexity: O(n)
+    Space Complexity: O(n)
     '''
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         # create a dict to store the numbers and their position 
