@@ -13,8 +13,13 @@
 | 9 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [longest_consecutive_sequence.py](Arrays%20&%20Hashing/longest_consecutive_sequence.py) |
 
 
-## [Two Pointers](Arrays%20&%20Hashing)
+## [Two Pointers](Two%20Pointers)
 
 | # | Question | Solution |
 |---| -------- | -------- | 
 | 1 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [valid_palindrome.py](Two%20Pointers/valid_palindrome.py) |
+| 2 | [3Sum](https://leetcode.com/problems/valid-palindrome/) | [3_sum.py](Two%20Pointers/3_sum.py) |
+| 3 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [container_with_most_water.py](Two%20Pointers/container_with_most_water.py) |
+
+
+## [Sliding Window](Sliding%20Window)
