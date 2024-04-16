@@ -1,6 +1,14 @@
-# Neetcode 150 Questions - Solutions
+# Explanatory Solutions for NeetCode 150 🚀
 
-This repository contains explanatory solutions to the 150 coding interview questions from the popular [NeetCode](https://neetcode.io/) platform. These solutions are implemented in Python and cover a wide range of data structures and algorithms commonly asked in coding interviews.
+This repository contains explanatory solutions to the 150 coding interview questions from the popular [NeetCode.io](https://neetcode.io/) platform. These solutions are implemented in Python and cover a wide range of data structures and algorithms commonly asked in coding interviews.
+
+The site will periodically be updated with new solutions from this repo!
+
+## What is NeetCode 150?
+
+NeetCode 150 is a meticulously curated set of 150 LeetCode problems covering all essential data structure and algorithm topics, making it an indispensable resource for preparing for coding interviews at top tech companies like FAANG.
+
+Creator's [original repository](https://github.com/neetcode-gh/leetcode) and [website](https://neetcode.io/).
 
 ## Purpose
 
@@ -28,7 +36,7 @@ The repository is organized into separate folders, each containing solutions for
 
 ## Contributing
 
-Contributions to this repository are welcome! If you have an alternative solution, an optimization, or a new question to add, please follow these steps:
+Contributions to this repository are welcome! Solutions are also welcome for any other supported language on leetcode. If you have an alternative solution, an optimization, or a new question to add, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your changes: `git checkout -b my-new-feature`.
