@@ -14,6 +14,15 @@ Creator's [original repository](https://github.com/neetcode-gh/leetcode) and [we
 
 The primary goal of this repository is to provide a comprehensive resource for anyone preparing for coding interviews or looking to improve their problem-solving skills in Python. By studying these solutions, you can gain a better understanding of various data structures and algorithms, as well as practice implementing efficient and optimized solutions to common coding problems.
 
+## How to Use
+
+<i><b>Tip:</b> Before diving into the solutions, I recommend that you first try solving the problems yourself. This practice will help you develop your problem-solving skills. Use this repository as a reference after making an honest attempt, and compare your solution with the provided ones to identify areas for improvement. </i>
+
+
+1. Navigate to the specific folder containing the solutions you want to study.
+2. Open the Python file(s) and read through the code, comments, and explanations.
+3. Feel free to modify the solutions, experiment with different approaches, or add your own solutions to the repository.
+
 ## License
 
 This repository is licensed under the [`MIT License`](LICENSE), which means you are free to use, modify, and distribute the code as long as you include the original license file.
@@ -21,18 +30,6 @@ This repository is licensed under the [`MIT License`](LICENSE), which means you 
 ## Repository Structure
 
 The repository is organized into separate folders, each containing solutions for a specific data structure or algorithm topic. Each folder contains Python files with solutions to the respective NeetCode questions (organized in [`QUESTIONS.md`](QUESTIONS.md)), along with explanations and comments to help you understand the approach and thought process behind each solution.
-
-## How to Use
-
-1. Clone the repository to your local machine using the following command:
-
-   ```
-   git clone https://github.com/shrenik-jain/neetcode-solutions.git
-   ```
-
-2. Navigate to the specific folder containing the solutions you want to study.
-3. Open the Python file(s) and read through the code, comments, and explanations.
-4. Feel free to modify the solutions, experiment with different approaches, or add your own solutions to the repository.
 
 ## Contributing
 

@@ -20,6 +20,41 @@
 | 1 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [valid_palindrome.py](Two%20Pointers/valid_palindrome.py) |
 | 2 | [3Sum](https://leetcode.com/problems/valid-palindrome/) | [3_sum.py](Two%20Pointers/3_sum.py) |
 | 3 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [container_with_most_water.py](Two%20Pointers/container_with_most_water.py) |
+| 4 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [trapping_rain_water.py](Two%20Pointers/trapping_rain_water.py) |
 
 
 ## [Sliding Window](Sliding%20Window)
+
+| # | Question | Solution |
+|---| -------- | -------- | 
+| 1 | [Best time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [best_buy_sell_stock.py](Sliding%20Window/best_buy_sell_stock.py) |
+| 2 | [Longest Substring w/o Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [longest_substr_without_repeating_chars.py](Sliding%20Window/longest_substr_without_repeating_chars.py) |
+| 3 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [longest_repeating_character_replacement.py](Sliding%20Window/longest_repeating_character_replacement.py) |
+| 4 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [minimum_window_substring.py](Sliding%20Window/minimum_window_substring.py) |
+
+
+## [Stack](Stack)
+
+| # | Question | Solution |
+|---| -------- | -------- | 
+|1 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [valid_parentheses.py](Stack/valid_parentheses.py) |
+
+
+## [Binary Search](Binary%20Search)
+
+| # | Question | Solution |
+|---| -------- | -------- | 
+| 1 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [min_in_rotated_array.py](Binary%20Search/min_in_rotated_array.py) |
+| 2 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [search_in_rotated_array.py](Binary%20Search/search_in_rotated_array.py) |
+
+
+## [Linked List](Linked%20List)
+
+| # | Question | Solution |
+|---| -------- | -------- | 
+| 1 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [reverse_linked_list.py](Linked%20List/reverse_linked_list.py) |
+| 2 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [merge_two_sorted_lists.py](Linked%20List/merge_two_sorted_lists.py) |
+| 3 | [Reorder List](https://leetcode.com/problems/reorder-list/) | [reorder_list.py](Linked%20List/reorder_list.py) |
+| 4 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [remove_nth_node_from_end_of_list.py](Linked%20List/remove_nth_node_from_end_of_list.py) |
+| 5 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [linked_list_cycle.py](Linked%20List/linked_list_cycle.py) |
+| 6 | [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [merge_k_sorted_lists.py](Linked%20List/merge_k_sorted_lists.py) |
