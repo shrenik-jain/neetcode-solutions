@@ -1,3 +1,13 @@
+# INDEX
+
+- [Arrays & Hashing](#arrays--hashing)
+- [Two Pointers](#two-pointers)
+- [Sliding Window](#sliding-window)
+- [Stack](#stack)
+- [Binary Search](#binary-search)
+- [Linked List](#linked-list)
+- [Trees](#trees)
+
 ## [Arrays & Hashing](Arrays%20&%20Hashing)
 
 | # | Question | Solution |
