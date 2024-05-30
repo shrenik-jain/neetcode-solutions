@@ -58,3 +58,16 @@
 | 4 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [remove_nth_node_from_end_of_list.py](Linked%20List/remove_nth_node_from_end_of_list.py) |
 | 5 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [linked_list_cycle.py](Linked%20List/linked_list_cycle.py) |
 | 6 | [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [merge_k_sorted_lists.py](Linked%20List/merge_k_sorted_lists.py) |
+
+
+## [Trees](Trees)
+
+| # | Question | Solution |
+|---| -------- | -------- | 
+| 1 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [invert_binary_tree.py](Trees/invert_binary_tree.py) |
+| 2 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [max_depth_of_binary_tree.py](Trees/max_depth_of_binary_tree.py) |
+| 3 | [Same Tree](https://leetcode.com/problems/same-tree/) | [same_tree.py](Trees/same_tree.py) |
+| 4 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [subtree_of_another_tree.py](Trees/subtree_of_another_tree.py) |
+| 5 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [lowest_common_ancestor_of_bst.py](Trees/lowest_common_ancestor_of_bst.py) |
+| 6 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [binary_tree_level_order_traversal.py](Trees/binary_tree_level_order_traversal.py) |
+| 7 | [Validate Binary Search Tree](https://leetcode.com/problems/valid-binary-search-tree/) | [valid_bst.py](Trees/valid_bst.py) |
