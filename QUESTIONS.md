@@ -7,6 +7,9 @@
 - [Binary Search](#binary-search)
 - [Linked List](#linked-list)
 - [Trees](#trees)
+- [Priority Queue](#priority-queue)
+- [Backtracking](#backtracking)
+- [Tries](#tries)
 
 ## [Arrays & Hashing](Arrays%20&%20Hashing)
 
@@ -83,3 +86,41 @@
 | 7 | [Validate Binary Search Tree](https://leetcode.com/problems/valid-binary-search-tree/) | [valid_bst.py](Trees/valid_bst.py) |
 | 8 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [kth_smallest_element_in_bst.py](Trees/kth_smallest_element_in_bst.py) |
 | 9 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [bt_from_inorder_and_preorder.py](Trees/bt_from_inorder_and_preorder.py) |
+
+
+## [Priority Queue](Priority%20Queue)
+
+| # | Question | Solution |
+|---| -------- | -------- | 
+| 1 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](Priority%20Queue/find_median_from_data_stream.py) |
+
+
+## [Backtracking](Backtracking)
+
+| # | Question | Solution |
+|---| -------- | -------- | 
+| 1 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [combination_sum.py](Backtracking/combination_sum.py.py) |
+
+
+## [Tries](Tries)
+
+| # | Question | Solution |
+|---| -------- | -------- | 
+| 1 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [implement_trie.py](Tries/implement_trie.py) |
+| 2 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [design_add_and_search_words.py](Tries/design_add_and_search_words.py) |
+
+
+<!-- ## [1-D Dynamic Programming](1-D%20Dynamic%20Programming)
+
+| # | Question | Solution |
+|---| -------- | -------- | 
+| 1 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](1-D%20Dynamic%20Programming/find_median_from_data_stream.py) |
+| 2 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](1-D%20Dynamic%20Programming/find_median_from_data_stream.py) |
+| 3 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](1-D%20Dynamic%20Programming/find_median_from_data_stream.py) |
+| 4 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](1-D%20Dynamic%20Programming/find_median_from_data_stream.py) |
+| 5 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](1-D%20Dynamic%20Programming/find_median_from_data_stream.py) |
+| 6 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](1-D%20Dynamic%20Programming/find_median_from_data_stream.py) |
+| 7 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](1-D%20Dynamic%20Programming/find_median_from_data_stream.py) |
+| 8 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](1-D%20Dynamic%20Programming/find_median_from_data_stream.py) |
+| 9 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](1-D%20Dynamic%20Programming/find_median_from_data_stream.py) |
+| 10 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](1-D%20Dynamic%20Programming/find_median_from_data_stream.py) | -->
