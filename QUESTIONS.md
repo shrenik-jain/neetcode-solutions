@@ -81,3 +81,5 @@
 | 5 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [lowest_common_ancestor_of_bst.py](Trees/lowest_common_ancestor_of_bst.py) |
 | 6 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [binary_tree_level_order_traversal.py](Trees/binary_tree_level_order_traversal.py) |
 | 7 | [Validate Binary Search Tree](https://leetcode.com/problems/valid-binary-search-tree/) | [valid_bst.py](Trees/valid_bst.py) |
+| 8 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [kth_smallest_element_in_bst.py](Trees/kth_smallest_element_in_bst.py) |
+| 9 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [bt_from_inorder_and_preorder.py](Trees/bt_from_inorder_and_preorder.py) |
