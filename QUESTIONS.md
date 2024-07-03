@@ -10,6 +10,7 @@
 - [Priority Queue](#priority-queue)
 - [Backtracking](#backtracking)
 - [Tries](#tries)
+- [1D Dynamic Programming](#1-d-dynamic-programming)
 
 ## [Arrays & Hashing](Arrays%20&%20Hashing)
 
@@ -110,17 +111,17 @@
 | 2 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [design_add_and_search_words.py](Tries/design_add_and_search_words.py) |
 
 
-<!-- ## [1-D Dynamic Programming](1-D%20Dynamic%20Programming)
+## [1-D Dynamic Programming](1-D%20Dynamic%20Programming)
 
 | # | Question | Solution |
 |---| -------- | -------- | 
-| 1 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](1-D%20Dynamic%20Programming/find_median_from_data_stream.py) |
-| 2 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](1-D%20Dynamic%20Programming/find_median_from_data_stream.py) |
-| 3 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](1-D%20Dynamic%20Programming/find_median_from_data_stream.py) |
-| 4 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](1-D%20Dynamic%20Programming/find_median_from_data_stream.py) |
-| 5 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](1-D%20Dynamic%20Programming/find_median_from_data_stream.py) |
-| 6 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](1-D%20Dynamic%20Programming/find_median_from_data_stream.py) |
-| 7 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](1-D%20Dynamic%20Programming/find_median_from_data_stream.py) |
-| 8 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](1-D%20Dynamic%20Programming/find_median_from_data_stream.py) |
-| 9 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](1-D%20Dynamic%20Programming/find_median_from_data_stream.py) |
-| 10 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](1-D%20Dynamic%20Programming/find_median_from_data_stream.py) | -->
+| 1 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [climbing_stairs.py](1-D%20Dynamic%20Programming/climbing_stairs.py) |
+| 2 | [House Robber](https://leetcode.com/problems/house-robber/) | [house_robber.py](1-D%20Dynamic%20Programming/house_robber.py) |
+| 3 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | [house_robber_ii.py](1-D%20Dynamic%20Programming/house_robber_ii.py) |
+| 4 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [longest_palindromic_substring.py](1-D%20Dynamic%20Programming/longest_palindromic_substring.py) |
+| 5 |[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | [palindromic_substrings.py](1-D%20Dynamic%20Programming/palindromic_substrings.py) |
+| 6 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | [decode_ways.py](1-D%20Dynamic%20Programming/decode_ways.py) |
+| 7 | [Coin Change](https://leetcode.com/problems/coin-change/) | [coin_change.py](1-D%20Dynamic%20Programming/coin_change.py) |
+| 8 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [max_product_subarray.py](1-D%20Dynamic%20Programming/max_product_subarray.py) |
+| 9 | [Word Break](https://leetcode.com/problems/word-break/) | [word_break.py](1-D%20Dynamic%20Programming/word_break.py) |
+| 10 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [longest_increasing_subsequence.py](1-D%20Dynamic%20Programming/longest_increasing_subsequence.py) |
