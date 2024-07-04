@@ -1,6 +1,6 @@
 # INDEX
 
-- [Arrays & Hashing](#arrays--hashing)
+- [Arrays & Hashing](#arrays--hashing)   
 - [Two Pointers](#two-pointers)
 - [Sliding Window](#sliding-window)
 - [Stack](#stack)
@@ -12,7 +12,9 @@
 - [Tries](#tries)
 - [1D Dynamic Programming](#1-d-dynamic-programming)
 - [2D Dynamic Programming](#2-d-dynamic-programming)
+- [Greedy](#greedy)
 
+<br>
 
 ## [Arrays & Hashing](Arrays%20&%20Hashing)
 
@@ -28,6 +30,7 @@
 | 8 | [Encode & Decode Strings](https://www.lintcode.com/problem/659/) | [encode_decode_strings.py](Arrays%20&%20Hashing/encode_decode_strings.py) |
 | 9 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [longest_consecutive_sequence.py](Arrays%20&%20Hashing/longest_consecutive_sequence.py) |
 
+<br>
 
 ## [Two Pointers](Two%20Pointers)
 
@@ -38,6 +41,7 @@
 | 3 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [container_with_most_water.py](Two%20Pointers/container_with_most_water.py) |
 | 4 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [trapping_rain_water.py](Two%20Pointers/trapping_rain_water.py) |
 
+<br>
 
 ## [Sliding Window](Sliding%20Window)
 
@@ -48,6 +52,7 @@
 | 3 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [longest_repeating_character_replacement.py](Sliding%20Window/longest_repeating_character_replacement.py) |
 | 4 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [minimum_window_substring.py](Sliding%20Window/minimum_window_substring.py) |
 
+<br>
 
 ## [Stack](Stack)
 
@@ -55,6 +60,7 @@
 |---| -------- | -------- | 
 |1 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [valid_parentheses.py](Stack/valid_parentheses.py) |
 
+<br>
 
 ## [Binary Search](Binary%20Search)
 
@@ -63,6 +69,7 @@
 | 1 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [min_in_rotated_array.py](Binary%20Search/min_in_rotated_array.py) |
 | 2 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [search_in_rotated_array.py](Binary%20Search/search_in_rotated_array.py) |
 
+<br>
 
 ## [Linked List](Linked%20List)
 
@@ -75,6 +82,7 @@
 | 5 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [linked_list_cycle.py](Linked%20List/linked_list_cycle.py) |
 | 6 | [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [merge_k_sorted_lists.py](Linked%20List/merge_k_sorted_lists.py) |
 
+<br>
 
 ## [Trees](Trees)
 
@@ -90,6 +98,7 @@
 | 8 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [kth_smallest_element_in_bst.py](Trees/kth_smallest_element_in_bst.py) |
 | 9 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [bt_from_inorder_and_preorder.py](Trees/bt_from_inorder_and_preorder.py) |
 
+<br>
 
 ## [Priority Queue](Priority%20Queue)
 
@@ -97,6 +106,7 @@
 |---| -------- | -------- | 
 | 1 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](Priority%20Queue/find_median_from_data_stream.py) |
 
+<br>
 
 ## [Backtracking](Backtracking)
 
@@ -104,6 +114,7 @@
 |---| -------- | -------- | 
 | 1 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [combination_sum.py](Backtracking/combination_sum.py.py) |
 
+<br>
 
 ## [Tries](Tries)
 
@@ -112,6 +123,7 @@
 | 1 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [implement_trie.py](Tries/implement_trie.py) |
 | 2 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [design_add_and_search_words.py](Tries/design_add_and_search_words.py) |
 
+<br>
 
 ## [1-D Dynamic Programming](1-D%20Dynamic%20Programming)
 
@@ -128,6 +140,7 @@
 | 9 | [Word Break](https://leetcode.com/problems/word-break/) | [word_break.py](1-D%20Dynamic%20Programming/word_break.py) |
 | 10 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [longest_increasing_subsequence.py](1-D%20Dynamic%20Programming/longest_increasing_subsequence.py) |
 
+<br>
 
 ## [2-D Dynamic Programming](2-D%20Dynamic%20Programming)
 
@@ -135,3 +148,14 @@
 |---| -------- | -------- | 
 | 1 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [unique_paths.py](2-D%20Dynamic%20Programming/unique_paths.py) |
 | 2 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [lcs.py](2-D%20Dynamic%20Programming/lcs.py) |
+
+<br>
+
+## [Greedy](Greedy)
+
+| # | Question | Solution |
+|---| -------- | -------- | 
+| 1 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [max_subarray.py](Greedy/max_subarray.py) |
+| 2 | [Jump Game](https://leetcode.com/problems/jump-game/) | [jump_game.py](jump_game/lcs.py) |
+
+<br>
