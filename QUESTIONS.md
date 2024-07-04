@@ -11,6 +11,8 @@
 - [Backtracking](#backtracking)
 - [Tries](#tries)
 - [1D Dynamic Programming](#1-d-dynamic-programming)
+- [2D Dynamic Programming](#2-d-dynamic-programming)
+
 
 ## [Arrays & Hashing](Arrays%20&%20Hashing)
 
@@ -125,3 +127,11 @@
 | 8 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [max_product_subarray.py](1-D%20Dynamic%20Programming/max_product_subarray.py) |
 | 9 | [Word Break](https://leetcode.com/problems/word-break/) | [word_break.py](1-D%20Dynamic%20Programming/word_break.py) |
 | 10 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [longest_increasing_subsequence.py](1-D%20Dynamic%20Programming/longest_increasing_subsequence.py) |
+
+
+## [2-D Dynamic Programming](2-D%20Dynamic%20Programming)
+
+| # | Question | Solution |
+|---| -------- | -------- | 
+| 1 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [unique_paths.py](2-D%20Dynamic%20Programming/unique_paths.py) |
+| 2 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [lcs.py](2-D%20Dynamic%20Programming/lcs.py) |
