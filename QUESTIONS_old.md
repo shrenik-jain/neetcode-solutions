@@ -13,6 +13,8 @@
 - [1D Dynamic Programming](#1-d-dynamic-programming)
 - [2D Dynamic Programming](#2-d-dynamic-programming)
 - [Greedy](#greedy)
+- [Intervals](#intervals)
+- [Bit Manipulation](#bit-manipulation)
 
 <br>
 
@@ -157,5 +159,24 @@
 |---| -------- | -------- | 
 | 1 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [max_subarray.py](Greedy/max_subarray.py) |
 | 2 | [Jump Game](https://leetcode.com/problems/jump-game/) | [jump_game.py](jump_game/lcs.py) |
+
+<br>
+
+## [Intervals](Intervals)
+| # | Question | Solution |
+|---| -------- | -------- | 
+| 1 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | [insert_interval.py](Intervals/insert_interval.py) |
+| 2 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [merge_intervals.py](Intervals/merge_intervals.py) |
+| 3 | [Non Overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [non_overlapping_intervals.py](Intervals/non_overlapping_intervals.py) |
+
+<br>
+
+## [Bit Manipulation](Bit%20Manipulation)
+| # | Question | Solution |
+|---| -------- | -------- | 
+| 1 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [number_of_1_bits.py](Bit%20Manipulation/number_of_1_bits.py) |
+| 2 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | [counting_bits.py](Bit%20Manipulation/counting_bits.py) |
+| 3 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | [reverse_bits.py](Bit%20Manipulation/reverse_bits.py) |
+| 4 | [Missing Number](https://leetcode.com/problems/missing-number/) | [missing_number.py](Bit%20Manipulation/missing_number.py) |
 
 <br>
