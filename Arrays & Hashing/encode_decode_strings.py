@@ -4,6 +4,8 @@ Question: [Leetcode Premium] -> https://leetcode.com/problems/encode-and-decode-
           [Neetcode Free] -> https://neetcode.io/problems/string-encode-and-decode
 '''
 
+from typing import List
+
 class Solution:
     def encode(self, strs: List[str]) -> str:
         '''

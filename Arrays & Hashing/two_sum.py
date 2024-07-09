@@ -2,6 +2,8 @@
 Question: https://leetcode.com/problems/two-sum/
 '''
 
+from typing import List
+
 class Solution:
     '''
     iterate over the list and store the numbers in a dictionary. If the difference of target and 
@@ -12,13 +14,13 @@ class Solution:
     '''
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         # create a dict to store the numbers and their position 
-        counter = {}
-        for i in range(len(nums)):
+        seen = {}
+        for i, n in enumerate(nums):
             # find the difference of target and current number
-            k = target - nums[i]
+            toFind = target - n
             # if the difference is already in the dict then return the two number positions
-            if k in counter:
-                return [counter[k], i]
+            if toFind in seen:
+                return [seen[toFind], i]
             
             # keep stroing the current number as you proceed to the next number
-            counter[nums[i]] = i        
+            seen[n] = i 

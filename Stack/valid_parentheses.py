@@ -6,9 +6,8 @@ class Solution:
     def isValid(self, s: str) -> bool:
         '''
         Maintain a stack (LIFO System)
-        if char is an open bracket keep appending it to stack
-        if char is a closing bracket, check if the coresponding opening bracket
-        is at the top of the stack
+        if char is an open bracket append it to stack
+        if char is a closing bracket, check if the coresponding opening bracket is at the top of the stack
 
         TC: O(n)
         SC: O(n)
