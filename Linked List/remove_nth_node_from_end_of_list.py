@@ -2,6 +2,8 @@
 Question: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 '''
 
+from typing import Optional
+
 # Definition for singly-linked list
 class ListNode:
     def __init__(self, val=0, next=None):
@@ -16,7 +18,8 @@ class Solution:
         Then we go on to remove that node.
         Trick: start left pointer with a dummy node. Makes it easier to delete the node when you reach the end.
         
-        Time Complexity: O(n) & Space Complexity: O(1)
+        Time Complexity: O(n)
+        Space Complexity: O(1)
         '''
         
         # Set next of dummy node at the start of the list

@@ -2,6 +2,8 @@
 Question: https://leetcode.com/problems/reverse-linked-list/
 '''
 
+from typing import Optional
+
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):

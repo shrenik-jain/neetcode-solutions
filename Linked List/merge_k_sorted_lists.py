@@ -2,6 +2,8 @@
 Question: https://leetcode.com/problems/merge-k-sorted-lists/
 '''
 
+from typing import List, Optional
+
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
