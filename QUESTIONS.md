@@ -55,6 +55,7 @@ a:hover {
 | | &nbsp; | &nbsp; | &nbsp; |
 | <a id="stack"></a>**[Stack](Stack)** | | | |
 | | 1 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [valid_parentheses.py](Stack/valid_parentheses.py) |
+| | 2 | [Min Length After Delete](Stack/min_length_after_delete.py) [Extra] | [min_length_after_delete.py](Stack/min_length_after_delete.py) |
 | | &nbsp; | &nbsp; | &nbsp; |
 | <a id="binary-search"></a>**[Binary Search](Binary%20Search)** | | | |
 | | 1 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [min_in_rotated_array.py](Binary%20Search/min_in_rotated_array.py) |
