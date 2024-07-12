@@ -43,9 +43,10 @@ a:hover {
 | | &nbsp; | &nbsp; | &nbsp; |
 | <a id="two-pointers"></a>**[Two Pointers](Two%20Pointers)** | | | |
 | | 1 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [valid_palindrome.py](Two%20Pointers/valid_palindrome.py) |
-| | 2 | [3Sum](https://leetcode.com/problems/3sum/) | [3_sum.py](Two%20Pointers/3_sum.py) |
-| | 3 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [container_with_most_water.py](Two%20Pointers/container_with_most_water.py) |
-| | 4 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [trapping_rain_water.py](Two%20Pointers/trapping_rain_water.py) |
+| | 2 | [Two Sum - II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [two_sum_ii.py](Two%20Pointers/two_sum_ii.py) |
+| | 3 | [3Sum](https://leetcode.com/problems/3sum/) | [3_sum.py](Two%20Pointers/3_sum.py) |
+| | 4 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [container_with_most_water.py](Two%20Pointers/container_with_most_water.py) |
+| | 5 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [trapping_rain_water.py](Two%20Pointers/trapping_rain_water.py) |
 | | &nbsp; | &nbsp; | &nbsp; |
 | <a id="sliding-window"></a>**[Sliding Window](Sliding%20Window)** | | | |
 | | 1 | [Best time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [best_buy_sell_stock.py](Sliding%20Window/best_buy_sell_stock.py) |
