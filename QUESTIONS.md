@@ -19,6 +19,7 @@ a:hover {
 - [Priority Queue](#priority-queue)
 - [Backtracking](#backtracking)
 - [Tries](#tries)
+- [Graphs](#graphs)
 - [1D Dynamic Programming](#1d-dynamic-programming)
 - [2D Dynamic Programming](#2d-dynamic-programming)
 - [Greedy](#greedy)
@@ -57,8 +58,12 @@ a:hover {
 | <a id="stack"></a>**[Stack](Stack)** | | | |
 | | 1 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [valid_parentheses.py](Stack/valid_parentheses.py) |
 | | 2 | [Min Stack](https://leetcode.com/problems/min-stack/) | [min_stack.py](Stack/min_stack.py) |
-| | 3 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [generate_parentheses.py](Stack/generate_parentheses.py) |
-| | 4 | [Min Length After Delete](Stack/min_length_after_delete.py) [Extra] | [min_length_after_delete.py](Stack/min_length_after_delete.py) |
+| | 3 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [evalRPN.py](Stack/evalRPN.py) |
+| | 4 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [generate_parentheses.py](Stack/generate_parentheses.py) |
+| | 5 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [daily_temperatures.py](Stack/daily_temperatures.py) |
+| | 6 | [Car Fleet](https://leetcode.com/problems/car-fleet/) | [car_fleet.py](Stack/car_fleet.py) |
+| | 7 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [largest_rectangle_histogram.py](Stack/largest_rectangle_histogram.py) |
+| | 8 | [Min Length After Delete](Stack/min_length_after_delete.py) [Extra] | [min_length_after_delete.py](Stack/min_length_after_delete.py) |
 | | &nbsp; | &nbsp; | &nbsp; |
 | <a id="binary-search"></a>**[Binary Search](Binary%20Search)** | | | |
 | | 1 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [min_in_rotated_array.py](Binary%20Search/min_in_rotated_array.py) |
@@ -84,7 +89,9 @@ a:hover {
 | | 9 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [bt_from_inorder_and_preorder.py](Trees/bt_from_inorder_and_preorder.py) |
 | | &nbsp; | &nbsp; | &nbsp; |
 | <a id="priority-queue"></a>**[Priority Queue](Priority%20Queue)** | | | |
-| | 1 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](Priority%20Queue/find_median_from_data_stream.py) |
+| | 1 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [kth_largest.py](Priority%20Queue/kth_largest.py) |
+| | 2 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [last_stone_weight.py](Priority%20Queue/last_stone_weight.py) |
+| | 3 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](Priority%20Queue/find_median_from_data_stream.py) |
 | | &nbsp; | &nbsp; | &nbsp; |
 | <a id="backtracking"></a>**[Backtracking](Backtracking)** | | | |
 | | 1 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [combination_sum.py](Backtracking/combination_sum.py) |
@@ -93,17 +100,24 @@ a:hover {
 | | 1 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [implement_trie.py](Tries/implement_trie.py) |
 | | 2 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [design_add_and_search_words.py](Tries/design_add_and_search_words.py) |
 | | &nbsp; | &nbsp; | &nbsp; |
+| <a id="graphs"></a>**[Graphs](Graphs)** | | | |
+| | 1 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [number_of_islands.py](Graphs/number_of_islands.py) |
+| | 2 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [max_area_of_island.py](Graphs/max_area_of_island.py) |
+| | 3 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | [clone_graph.py](Graphs/clone_graph.py) |
+| | 4 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [rotting_oranges.py](Graphs/rotting_oranges.py) |
+| | &nbsp; | &nbsp; | &nbsp; |
 | <a id="1d-dynamic-programming"></a>**[1-D Dynamic Programming](1-D%20Dynamic%20Programming)** | | | |
 | | 1 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [climbing_stairs.py](1-D%20Dynamic%20Programming/climbing_stairs.py) |
-| | 2 | [House Robber](https://leetcode.com/problems/house-robber/) | [house_robber.py](1-D%20Dynamic%20Programming/house_robber.py) |
-| | 3 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | [house_robber_ii.py](1-D%20Dynamic%20Programming/house_robber_ii.py) |
-| | 4 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [longest_palindromic_substring.py](1-D%20Dynamic%20Programming/longest_palindromic_substring.py) |
-| | 5 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | [palindromic_substrings.py](1-D%20Dynamic%20Programming/palindromic_substrings.py) |
-| | 6 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | [decode_ways.py](1-D%20Dynamic%20Programming/decode_ways.py) |
-| | 7 | [Coin Change](https://leetcode.com/problems/coin-change/) | [coin_change.py](1-D%20Dynamic%20Programming/coin_change.py) |
-| | 8 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [max_product_subarray.py](1-D%20Dynamic%20Programming/max_product_subarray.py) |
-| | 9 | [Word Break](https://leetcode.com/problems/word-break/) | [word_break.py](1-D%20Dynamic%20Programming/word_break.py) |
-| | 10 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [longest_increasing_subsequence.py](1-D%20Dynamic%20Programming/longest_increasing_subsequence.py) |
+| | 2 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | [min_cost_climbing_stairs.py](1-D%20Dynamic%20Programming/min_cost_climbing_stairs.py) |
+| | 3 | [House Robber](https://leetcode.com/problems/house-robber/) | [house_robber.py](1-D%20Dynamic%20Programming/house_robber.py) |
+| | 4 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | [house_robber_ii.py](1-D%20Dynamic%20Programming/house_robber_ii.py) |
+| | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [longest_palindromic_substring.py](1-D%20Dynamic%20Programming/longest_palindromic_substring.py) |
+| | 6 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | [palindromic_substrings.py](1-D%20Dynamic%20Programming/palindromic_substrings.py) |
+| | 7 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | [decode_ways.py](1-D%20Dynamic%20Programming/decode_ways.py) |
+| | 8 | [Coin Change](https://leetcode.com/problems/coin-change/) | [coin_change.py](1-D%20Dynamic%20Programming/coin_change.py) |
+| | 9 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [max_product_subarray.py](1-D%20Dynamic%20Programming/max_product_subarray.py) |
+| | 10 | [Word Break](https://leetcode.com/problems/word-break/) | [word_break.py](1-D%20Dynamic%20Programming/word_break.py) |
+| | 11 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [longest_increasing_subsequence.py](1-D%20Dynamic%20Programming/longest_increasing_subsequence.py) |
 | | &nbsp; | &nbsp; | &nbsp; |
 | <a id="2d-dynamic-programming"></a>**[2-D Dynamic Programming](2-D%20Dynamic%20Programming)** | | | |
 | | 1 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [unique_paths.py](2-D%20Dynamic%20Programming/unique_paths.py) |
