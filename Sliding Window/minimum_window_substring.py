@@ -50,20 +50,17 @@ class Solution:
 
             # if the `right_char` belongs to `t` and the count is exactly equal
             if right_char in countT and window[right_char] == countT[right_char]:
-                # we have just satisfied that `right_char`'s requirement
-                # increment have by 1
+                # we have just satisfied that `right_char`'s requirement, increment have by 1
                 have += 1
 
-            # 4. while have and need are equal i.e all character counts are 
-            #    satisfied from `t` in `s`
+            # 4. while have and need are equal i.e all character counts are satisfied from `t` in `s`
             while(have == need):
                 # 4.1 update the result
                 if r - l + 1 < resLen:
                     res = [l, r]
                     resLen = r - l + 1
 
-                # 4.2 pop elements from the left
-                #     to fin a shorter window
+                # 4.2 pop elements from the left to fin a shorter window
                 left_char = s[l]
                 window[left_char] -= 1
 

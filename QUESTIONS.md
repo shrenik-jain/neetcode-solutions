@@ -53,7 +53,8 @@ a:hover {
 | | 1 | [Best time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [best_buy_sell_stock.py](Sliding%20Window/best_buy_sell_stock.py) |
 | | 2 | [Longest Substring w/o Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [longest_substr_without_repeating_chars.py](Sliding%20Window/longest_substr_without_repeating_chars.py) |
 | | 3 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [longest_repeating_character_replacement.py](Sliding%20Window/longest_repeating_character_replacement.py) |
-| | 4 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [minimum_window_substring.py](Sliding%20Window/minimum_window_substring.py) |
+| | 4 | [Permutations in String](https://leetcode.com/problems/permutation-in-string/) | [permutations_in_string.py](Sliding%20Window/permutations_in_string.py) |
+| | 5 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [minimum_window_substring.py](Sliding%20Window/minimum_window_substring.py) |
 | | &nbsp; | &nbsp; | &nbsp; |
 | <a id="stack"></a>**[Stack](Stack)** | | | |
 | | 1 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [valid_parentheses.py](Stack/valid_parentheses.py) |
