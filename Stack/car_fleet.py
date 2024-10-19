@@ -15,7 +15,7 @@ class Solution:
         # to maintain the number of car fleets
         stack = []
 
-        # iterate over sorted `pairs` in reverse order
+        # iterate over sorted (wrt the position) `pairs` in reverse order
         for p, s in sorted(pairs)[::-1]:
 
             # find the timeTaken by ith car to reach the target using distance formula (T = D/S)
