@@ -24,11 +24,11 @@ Contributions to this repository are welcome! Solutions are also welcome for any
 
 ## Related Repo
 
-Check out my other repository [Leetcode Solutions](https://github.com/shrenik-jain/Leet-Code-Solutions) for solutions to LeetCode problems in Python and Java.
+Check out my other repository [Leetcode Solutions](https://github.com/shrenik-jain/Leet-Code-Solutions) for solutions to leetcode problems in Python + Java.
 
 ## Contact
 
-If you have any questions, suggestions, or feedback, feel free to reach out to me through [email](mailto:shrenikkjain81@gmail.com) or visit my [website](https://shrenik-jain.github.io/).
+If you have any questions, suggestions, or feedback, feel free to reach out to me through [email](mailto:shrenikkjain81@gmail.com) or visit my [website](https://shrenik-jain.github.io).
 
 <br>
 
