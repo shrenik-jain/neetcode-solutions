@@ -106,6 +106,8 @@ a:hover {
 | | 2 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [max_area_of_island.py](Graphs/max_area_of_island.py) |
 | | 3 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | [clone_graph.py](Graphs/clone_graph.py) |
 | | 4 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [rotting_oranges.py](Graphs/rotting_oranges.py) |
+| | 5 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | [course_schedule.py](Graphs/course_schedule.py) |
+| | 6 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | [course_schedule_ii.py](Graphs/course_schedule_ii.py) |
 | | &nbsp; | &nbsp; | &nbsp; |
 | <a id="1d-dynamic-programming"></a>**[1-D Dynamic Programming](1-D%20Dynamic%20Programming)** | | | |
 | | 1 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [climbing_stairs.py](1-D%20Dynamic%20Programming/climbing_stairs.py) |
