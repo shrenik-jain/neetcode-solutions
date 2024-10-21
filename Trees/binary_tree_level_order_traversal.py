@@ -3,6 +3,7 @@ Question: https://leetcode.com/problems/binary-tree-level-order-traversal/
 '''
 
 import collections
+from typing import List, Optional
 
 # Definition for a binary tree node.
 class TreeNode:

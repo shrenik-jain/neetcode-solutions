@@ -2,6 +2,7 @@
 Question: https://leetcode.com/problems/maximum-depth-of-binary-tree/
 '''
 
+from typing import Optional
 
 # Definition for a binary tree node.
 class TreeNode:
