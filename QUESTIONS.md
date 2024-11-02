@@ -24,6 +24,7 @@ a:hover {
 - [2D Dynamic Programming](#2d-dynamic-programming)
 - [Greedy](#greedy)
 - [Intervals](#intervals)
+- [Math & Geometry](#math--geometry)
 - [Bit Manipulation](#bit-manipulation)
 
 <br>
@@ -67,8 +68,9 @@ a:hover {
 | | 8 | [Min Length After Delete](Stack/min_length_after_delete.py) [Extra] | [min_length_after_delete.py](Stack/min_length_after_delete.py) |
 | | &nbsp; | &nbsp; | &nbsp; |
 | <a id="binary-search"></a>**[Binary Search](Binary%20Search)** | | | |
-| | 1 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [min_in_rotated_array.py](Binary%20Search/min_in_rotated_array.py) |
-| | 2 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [search_in_rotated_array.py](Binary%20Search/search_in_rotated_array.py) |
+| | 1 | [Binary Search](https://leetcode.com/problems/binary-search/) | [binary_search.py](Binary%20Search/binary_search.py) |
+| | 2 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [min_in_rotated_array.py](Binary%20Search/min_in_rotated_array.py) |
+| | 3 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [search_in_rotated_array.py](Binary%20Search/search_in_rotated_array.py) |
 | | &nbsp; | &nbsp; | &nbsp; |
 | <a id="linked-list"></a>**[Linked List](Linked%20List)** | | | |
 | | 1 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [reverse_linked_list.py](Linked%20List/reverse_linked_list.py) |
@@ -90,12 +92,14 @@ a:hover {
 | | 9 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [bt_from_inorder_and_preorder.py](Trees/bt_from_inorder_and_preorder.py) |
 | | &nbsp; | &nbsp; | &nbsp; |
 | <a id="priority-queue"></a>**[Priority Queue](Priority%20Queue)** | | | |
-| | 1 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [kth_largest.py](Priority%20Queue/kth_largest.py) |
+| | 1 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [kth_largest_in_stream.py](Priority%20Queue/kth_largest_in_stream.py) |
 | | 2 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [last_stone_weight.py](Priority%20Queue/last_stone_weight.py) |
-| | 3 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](Priority%20Queue/find_median_from_data_stream.py) |
+| | 3 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [kth_largest_in_array.py](Priority%20Queue/kth_largest_in_array.py) |
+| | 4 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](Priority%20Queue/find_median_from_data_stream.py) |
 | | &nbsp; | &nbsp; | &nbsp; |
 | <a id="backtracking"></a>**[Backtracking](Backtracking)** | | | |
 | | 1 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [combination_sum.py](Backtracking/combination_sum.py) |
+| | 2 | [Word Search](https://leetcode.com/problems/word-search/) | [word_search.py](Backtracking/word_search.py) |
 | | &nbsp; | &nbsp; | &nbsp; |
 | <a id="tries"></a>**[Tries](Tries)** | | | |
 | | 1 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [implement_trie.py](Tries/implement_trie.py) |
@@ -105,9 +109,11 @@ a:hover {
 | | 1 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [number_of_islands.py](Graphs/number_of_islands.py) |
 | | 2 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [max_area_of_island.py](Graphs/max_area_of_island.py) |
 | | 3 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | [clone_graph.py](Graphs/clone_graph.py) |
-| | 4 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [rotting_oranges.py](Graphs/rotting_oranges.py) |
-| | 5 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | [course_schedule.py](Graphs/course_schedule.py) |
-| | 6 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | [course_schedule_ii.py](Graphs/course_schedule_ii.py) |
+| | 4 | [Walls and Gates](https://leetcode.com/problems/walls-and-gates/) | [walls_and_gates.py](Graphs/walls_and_gates.py) |
+| | 5 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [rotting_oranges.py](Graphs/rotting_oranges.py) |
+| | 6 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [pac_atl_water_flow.py](Graphs/pac_atl_water_flow.py) |
+| | 7 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | [course_schedule.py](Graphs/course_schedule.py) |
+| | 8 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | [course_schedule_ii.py](Graphs/course_schedule_ii.py) |
 | | &nbsp; | &nbsp; | &nbsp; |
 | <a id="1d-dynamic-programming"></a>**[1-D Dynamic Programming](1-D%20Dynamic%20Programming)** | | | |
 | | 1 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [climbing_stairs.py](1-D%20Dynamic%20Programming/climbing_stairs.py) |
@@ -134,6 +140,11 @@ a:hover {
 | | 1 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | [insert_interval.py](Intervals/insert_interval.py) |
 | | 2 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [merge_intervals.py](Intervals/merge_intervals.py) |
 | | 3 | [Non Overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [non_overlapping_intervals.py](Intervals/non_overlapping_intervals.py) |
+| | &nbsp; | &nbsp; | &nbsp; |
+| <a id="math--geometry"></a>**[Math & Geometry](Math%20&%Geometry)** | | | |
+| | 1 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [rotate_image.py](Math%20&%20Geometry/rotate_image.py) |
+| | 2 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [spiral_matrix.py](Math%20&%20Geometry/spiral_matrix.py) |
+| | 3 | [Happy Number](https://leetcode.com/problems/happy-number/) | [happy_number.py](Math%20&%20Geometry/happy_number.py) |
 | | &nbsp; | &nbsp; | &nbsp; |
 | <a id="bit-manipulation"></a> **[Bit Manipulation](Bit%20Manipulation)** | | | |
 | | 1 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [number_of_1_bits.py](Bit%20Manipulation/number_of_1_bits.py) |

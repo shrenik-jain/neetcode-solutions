@@ -2,6 +2,8 @@
 Question: https://leetcode.com/problems/house-robber/
 '''
 
+from typing import List
+
 class Solution:
     def rob(self, nums: List[int]) -> int:
         # Look at the max value you can rob up until the last two nodes of the current node

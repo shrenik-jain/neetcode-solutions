@@ -13,7 +13,8 @@ class Solution:
 
         # two variables to store the previous two values
         # We do not use an array, since we only require the previous two values to calculate the new value
-        one_step, two_step = 1, 1
+        one_step = 1    # os
+        two_step = 1    # ts
 
         # iterate till 0th step
         for i in range(n-1):
@@ -24,3 +25,19 @@ class Solution:
 
         return one_step
         
+
+    # Dry Run
+    """
+    # n = 4
+    # res = [0,  0,  0,  1,  1]
+    # iter1              os  ts
+
+    # res = [0,  0,  2,  1,  1]
+    # iter2          os  ts
+
+    # res = [0,  4,  2,  1,  1]
+    # iter3      os  ts
+
+    # res = [6,  4,  2,  1,  1]
+    # iter3  os  ts
+    """
