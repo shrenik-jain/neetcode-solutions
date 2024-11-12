@@ -142,6 +142,9 @@ a:hover {
 | <a id="2d-dynamic-programming"></a>**[2-D Dynamic Programming](2-D%20Dynamic%20Programming)** | | | |
 | | 1 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [unique_paths.py](2-D%20Dynamic%20Programming/unique_paths.py) |
 | | 2 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [lcs.py](2-D%20Dynamic%20Programming/lcs.py) |
+| | 3 | [Best Time to Buy & Sell Stock - Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [buy_sell_stock_cooldown.py](2-D%20Dynamic%20Programming/buy_sell_stock_cooldown.py) |
+| | 4 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | [coin_change_ii.py](2-D%20Dynamic%20Programming/coin_change_ii.py) |
+| | 5 | [Target Sum](https://leetcode.com/problems/target-sum/) | [target_sum.py](2-D%20Dynamic%20Programming/target_sum.py) |
 | | &nbsp; | &nbsp; | &nbsp; |
 | <a id="greedy"></a> **[Greedy](Greedy)** | | | |
 | | 1 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [max_subarray.py](Greedy/max_subarray.py) |
