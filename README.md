@@ -12,11 +12,11 @@ This repository provides a comprehensive resource for anyone preparing for SWE/S
 
 ## Contributions
 
-Contributions to this repository are welcome! Solutions are also welcome for any other supported language on leetcode. If you have an alternative solution, an optimization, or a new question to add, please feel free to open a PR.
+Contributions to this repository are welcome! Solutions are also welcome for any other supported language on leetcode. If you have an alternative solution, an optimization, or a new question to add, please feel free to open a [PR](https://github.com/shrenik-jain/neetcode-solutions/pulls).
 
 - Make sure your code passes all the test cases on [Leetcode](https://leetcode.com/)
-- Write clean code with comments that is easy to understand
-- If you find any mistakes, please open an issue
+- Write clean code with comments that are easy to understand
+- If you find any mistakes, please open an [issue](https://github.com/shrenik-jain/neetcode-solutions/issues)
 
 ## Related Repo
 
