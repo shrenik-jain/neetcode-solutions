@@ -109,12 +109,18 @@ a:hover {
 | | 4 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](Priority%20Queue/find_median_from_data_stream.py) |
 | | &nbsp; | &nbsp; | &nbsp; |
 | <a id="backtracking"></a>**[Backtracking](Backtracking)** | | | |
-| | 1 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [combination_sum.py](Backtracking/combination_sum.py) |
-| | 2 | [Word Search](https://leetcode.com/problems/word-search/) | [word_search.py](Backtracking/word_search.py) |
+| | 1 | [Subsets](https://leetcode.com/problems/subsets/) | [subsets.py](Backtracking/subsets.py) |
+| | 2 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [combination_sum.py](Backtracking/combination_sum.py) |
+| | 3 | [Permutations](https://leetcode.com/problems/permutations/) | [permutations.py](Backtracking/permutations.py) |
+| | 4 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | [subsets_ii.py](Backtracking/subsets_ii.py) |
+| | 5 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | [combination_sum_ii.py](Backtracking/combination_sum_ii.py) |
+| | 6 | [Word Search](https://leetcode.com/problems/word-search/) | [word_search.py](Backtracking/word_search.py) |
+| | 7 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | [palindrome_partitioning.py](Backtracking/palindrome_partitioning.py) |
+| | 8 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [letter_combination_phone_number.py](Backtracking/letter_combination_phone_number.py) |
 | | &nbsp; | &nbsp; | &nbsp; |
 | <a id="tries"></a>**[Tries](Tries)** | | | |
 | | 1 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [implement_trie.py](Tries/implement_trie.py) |
-| | 2 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [design_add_and_search_words.py](Tries/design_add_and_search_words.py) |
+| | 2 | [Design Add & Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [design_add_and_search_words.py](Tries/design_add_and_search_words.py) |
 | | &nbsp; | &nbsp; | &nbsp; |
 | <a id="graphs"></a>**[Graphs](Graphs)** | | | |
 | | 1 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [number_of_islands.py](Graphs/number_of_islands.py) |
