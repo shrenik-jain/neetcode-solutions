@@ -2,6 +2,8 @@
 Question: https://leetcode.com/problems/3sum/
 '''
 
+from typing import List
+
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         '''
@@ -19,13 +21,6 @@ class Solution:
         nums.sort()
 
         for idx, curr_num in enumerate(nums):
-
-            # since we sorted the array, and out of the three numbers, 
-            # if the number in the first position is positive we are never going
-            # to be able to get to a sum of 0, since all numbers after curr_num will be 
-            # greater than 0 
-            if curr_num > 0:
-                break 
 
             # its the same number as previously visited, so skip it and continue to the next number
             if idx > 0 and curr_num == nums[idx-1]:

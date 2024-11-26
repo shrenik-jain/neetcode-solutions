@@ -23,18 +23,14 @@ class Solution:
             counter_s[i] = 1 + counter_s.get(i, 0)
             counter_t[j] = 1 + counter_t.get(j, 0)
 
-        # iterate over one of the maps
-        for key, value in counter_s.items():
-            try:
-                # check if char count in `counter_t` for a particular character 
-                # is same as the char count in `counter_s`. If not, strings are not anagrams
-                if counter_t[key] != value:
-                    return False
-            # if throws key error i.e. key does not exist in other map, therefore not an anagram
-            except:
+        # iterate over the keys one of the maps
+        for c in counter_s:
+            # check if char count in `counter_t` for a particular character is same as the char count in `counter_s`, 
+            # if not strings are not anagrams. If character is not present in `counter_t` then also strings are not anagrams
+            if counter_s[c] != counter_t.get(c, 0):
                 return False
 
-        return True  
+        return True 
 
 
         # # Another Solution
