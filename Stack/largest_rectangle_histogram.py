@@ -8,7 +8,7 @@ class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
         '''
         Maintain a stack with rules:
-        1. If we encounter a histogram with height > one @ top of the stack, start popping until we find a height less
+        1. If we encounter a histogram with height < one @ top of the stack, start popping until we find a height greater
             than or equal to curr height.
         2. How far left can curr height be extended (stored in the stack), since we need to maximize the area.
 
@@ -24,7 +24,7 @@ class Solution:
             # since we have to maximize the height
             start = i
 
-            # if we encounter a height > height @ top of the stack, we need to POP
+            # if we encounter a height < height @ top of the stack, we need to POP
             while stack and stack[-1][1] > ht:
                 sIndex, height = stack.pop()
                 # height * (i - sIndex) -> area of histogram @ top of the stack
@@ -40,4 +40,3 @@ class Solution:
             maxArea = max(maxArea, h * (len(heights) - i))
 
         return maxArea
-        
