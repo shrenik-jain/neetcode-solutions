@@ -13,7 +13,7 @@ class Solution:
         Step 2: init slow2 at the begining of the list, move slow and slow2 ahead until they meet
         Step 3: return slow or slow2
 
-        Note: We move to the next index of represented by the value
+        Note: We move to the next index in this list, represented by the value
         val - [1  3  4  2  2]
         idx -  0  1  2  3  4
 
