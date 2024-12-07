@@ -1,3 +1,9 @@
+![Language](https://img.shields.io/badge/language-Python-blue.svg)&nbsp;
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE.md)&nbsp;
+![Progress](https://img.shields.io/badge/progress-115%20%2F%20150-blue.svg)&nbsp;
+[![SayThanks](https://img.shields.io/badge/say-thanks-green.svg)](https://shrenik-jain.github.io/)&nbsp;
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=shrenik-jain.neetcode-solutions)
+
 # Solutions and Explanations for Neetcode 150 🚀
 
 This repository contains solutions (with explanations) to the 150 coding interview questions from the popular [Neetcode.io](https://neetcode.io/) platform. These solutions are implemented in Python and cover a wide range of data structures and algorithms commonly asked in coding interviews. The repo will be periodically updated with new solutions!
