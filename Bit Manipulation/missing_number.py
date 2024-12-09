@@ -2,6 +2,8 @@
 Question: https://leetcode.com/problems/missing-number/
 '''
 
+from typing import List
+
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
         ''' Approach 1: Brute Force O(N) approach'''

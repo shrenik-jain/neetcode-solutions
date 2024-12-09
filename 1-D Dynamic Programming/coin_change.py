@@ -2,6 +2,8 @@
 Question: https://leetcode.com/problems/coin-change/ 
 '''
 
+from typing import List
+
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         ''' Use a bottom up approach i.e. DP approach -> Time Complexity = O (amount * num of coins)'''
