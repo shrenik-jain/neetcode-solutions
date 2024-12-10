@@ -108,7 +108,9 @@ a:hover {
 | | 1 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [kth_largest_in_stream.py](Priority%20Queue/kth_largest_in_stream.py) |
 | | 2 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [last_stone_weight.py](Priority%20Queue/last_stone_weight.py) |
 | | 3 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [kth_largest_in_array.py](Priority%20Queue/kth_largest_in_array.py) |
-| | 4 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](Priority%20Queue/find_median_from_data_stream.py) |
+| | 4 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [k_closest_points.py](Priority%20Queue/k_closest_points.py) |
+| | 5 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | [task_scheduler.py](Priority%20Queue/task_scheduler.py) |
+| | 6 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [find_median_from_data_stream.py](Priority%20Queue/find_median_from_data_stream.py) |
 | | &nbsp; | &nbsp; | &nbsp; |
 | <a id="backtracking"></a>**[Backtracking](Backtracking)** | | | |
 | | 1 | [Subsets](https://leetcode.com/problems/subsets/) | [subsets.py](Backtracking/subsets.py) |
