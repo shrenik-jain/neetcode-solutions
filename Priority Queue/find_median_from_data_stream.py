@@ -8,8 +8,8 @@ class MedianFinder:
     '''
     Implement a heap 
 
-    addNum TC: O(log n)
-    finMedian TC: O(1)
+    Time Complexity: O(logn) for addNum and O(1) for findMedian
+    Space Complexity: O(n)
     '''
 
     def __init__(self):

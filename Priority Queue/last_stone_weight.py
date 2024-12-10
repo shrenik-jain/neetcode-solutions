@@ -9,6 +9,9 @@ class Solution:
     def lastStoneWeight(self, stones: List[int]) -> int:
         '''
         Use a maxHeap
+
+        Time Complexity: O(n) + O(nlogn)
+        Space Complexity: O(n)
         '''
         # create an array of stones (multiplied by -1 since python does not provide a maxHeap)
         maxHeap = [-1 * stone for stone in stones]

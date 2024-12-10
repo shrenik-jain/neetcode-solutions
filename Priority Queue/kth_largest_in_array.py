@@ -11,9 +11,9 @@ class Solution:
         '''
         Create a MaxHeap
 
-        TC: O(n + klogn)    O(n) => Heapify
-                            O(klogn) => Removing k elements from the heap
-        SC: O(n)
+        Time Complexity: O(n + klogn)   O(n) => Heapify
+                                        O(klogn) => Removing k elements from the heap
+        Space Complexity: O(n)
         '''
         # create a maxHeap, by multiplying nums with -1
         maxHeap = [-1 * n for n in nums]

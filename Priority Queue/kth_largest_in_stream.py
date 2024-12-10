@@ -8,6 +8,9 @@ import heapq
 class KthLargest:
     '''
     Use a min heap to store only k elements in it, and return the top element
+
+    Time Complexity: O(nlogk) for the constructor and O(logk) for the add method
+    Space Complexity: O(k)
     '''
 
     def __init__(self, k: int, nums: List[int]):
