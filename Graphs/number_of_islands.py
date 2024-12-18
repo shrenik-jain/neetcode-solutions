@@ -9,30 +9,33 @@ class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         '''
         Use BFS Using a Queue
+
+        TC: O(m*n) where m = rows, n = columns
+        SC: O(m*n) for the visited set
         '''
         # init the dimensions of the grid
         ROWS, COLS = len(grid), len(grid[0])
-        # to keep track of the visited islands
+        # init a set to keep track of visited cells
         visit = set()
         # count the number of islands
         islands = 0
 
         def bfs(r, c):
             '''
-            Helper Function which performs actual BFS
+            BFS to find all the connected islands
             '''
-            # define the directions in which we can move (right, left, up, down)
+            # directions to move in the grid (up, down, left, right)
             directions = [[0, 1], [0, -1], [1, 0], [-1, 0]]
             # init a queue to perform BFS
             q = deque()
-            # add the current cell (island) in the queue (will find adjacent `1s` to this cell)
+            # add the current cell to the queue to start the BFS
             q.append((r, c))
             # mark the cell as visited
             visit.add((r, c))
 
-            # while there are still connected 1's, continue the loop
+            # while the queue is not empty i.e there are still connected islands to explore
             while q:
-                # pop the most recent island cell
+                # pop the most recent cell from the queue
                 row, col = q.popleft()
 
                 # for this island, move in all the 4 directions to check for connected 1's
@@ -51,13 +54,13 @@ class Solution:
                         # mark the cell as visited
                         visit.add((r, c))
 
-        # iterate over each cell in the grid
+        # iterate over all the cells in the grid
         for r in range(ROWS):
             for c in range(COLS):
                 # if the cell is and island i.e "1" and not previous visited, perform BFS
                 if grid[r][c] == "1" and (r, c) not in visit:
                     bfs(r, c)
-                    # increment the count of islands by 1
+                    # increment the count of islands
                     islands += 1
 
         # return the final count of islands

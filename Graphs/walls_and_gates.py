@@ -4,6 +4,7 @@ Question: [Leetcode Premium] -> https://leetcode.com/problems/walls-and-gates/
 """
 
 from typing import List
+from collections import deque
 
 class Solution:
     def islandsAndTreasure(self, grid: List[List[int]]) -> None:

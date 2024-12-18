@@ -10,6 +10,7 @@ class Solution:
         Use DFS
 
         TC: O(m*n) where m = rows, n = columns
+        SC: O(m*n) for the visited set
         '''
         ROWS, COLS = len(grid), len(grid[0])
         maxArea = 0

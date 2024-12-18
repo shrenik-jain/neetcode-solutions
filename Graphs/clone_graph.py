@@ -14,28 +14,32 @@ class Node:
 class Solution:
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
         '''
-        Use DFS to make copies for each node
+        Approach: DFS + Hash Map
 
-        TC: O(n) = Num of Edges + Num of Vertices
-        SC: O(n)
+        Time Complexity: O(n) = Num of Edges + Num of Vertices
+        Space Complexity: O(n) = Num of Edges + Num of Vertices
         '''
-        # Edge Case: if the node is Null/None
+        # Edge Case: if the node is None, return None
         if not node:
             return None
         # to keep track of the node copies we already made
         oldToNew = {}
 
         def dfs(node):
-            # base case: if the node copy has already been made
+            '''
+            DFS to create a copy of the graph
+            '''
+            # base case: if the copy of the node already exists, return it
             if node in oldToNew:
                 return oldToNew[node]
 
-            # if above condition skips, then node copy doesn't exist, so create one
+            # if above condition skips, then copy of the node doesn't exist, so create one
             copy = Node(node.val)
-            # add the copy to hashMap to track that the copy for curr node has already been made
+            # add the copy to the dictionary, so that we don't make copies of the same node again
             oldToNew[node] = copy
 
-            # iterate over all neighbors of the current node, and call `dfs()` for each to create copies
+            # iterate over all neighbors of the current node, and call `dfs()` for each 
+            # neighbour to create a copy and add them to the current node's neighbours
             for n in node.neighbors:
                 # add them as neighbours of the current node `copy`
                 copy.neighbors.append(dfs(n))
