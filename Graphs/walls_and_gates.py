@@ -1,5 +1,5 @@
 """
-Question: [Leetcode Premium] -> https://leetcode.com/problems/walls-and-gates/
+Question: [Leetcode Premium] -> https://leetcode.com/problems/walls-and-gates
           [Neetcode Free] -> https://neetcode.io/problems/islands-and-treasure
 """
 
@@ -12,8 +12,8 @@ class Solution:
         Travel from the chest to the land using BFS, filling
         all the neighbouring cell distances from the chest
 
-        TC: O(ROWS * COLS)
-        SC: O(ROWS * COLS)
+        Time Complexity: O(ROWS * COLS)
+        Space Complexity: O(ROWS * COLS)
         """
         # get the dimensions of the grid
         ROWS, COLS = len(grid), len(grid[0])

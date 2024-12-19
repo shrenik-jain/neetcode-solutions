@@ -9,8 +9,8 @@ class Solution:
         """
         Use to check if each course can be completed
 
-        TC: O(course + prerequisites)
-        SC: O(course)
+        Time Complexity: O(course + prerequisites)
+        Space Complexity: O(course)
         """
         # create a hashmap (adjacency list) to map courses to its prereqs {1: [0, 2], 1: [3]....}
         preMap = {i: [] for i in range(numCourses)}

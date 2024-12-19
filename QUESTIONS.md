@@ -136,6 +136,7 @@ a:hover {
 | | 7 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [surrounded_regions.py](Graphs/surrounded_regions.py) |
 | | 8 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | [course_schedule.py](Graphs/course_schedule.py) |
 | | 9 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | [course_schedule_ii.py](Graphs/course_schedule_ii.py) |
+| | 10 | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) | [graph_valid_tree.py](Graphs/graph_valid_tree.py) |
 | | &nbsp; | &nbsp; | &nbsp; |
 | <a id="1d-dynamic-programming"></a>**[1-D Dynamic Programming](1-D%20Dynamic%20Programming)** | | | |
 | | 1 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [climbing_stairs.py](1-D%20Dynamic%20Programming/climbing_stairs.py) |
