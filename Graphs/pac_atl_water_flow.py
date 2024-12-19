@@ -11,10 +11,10 @@ class Solution:
         flow to the ocean. 
         
         Since we are going in the opp direction (ocean to land), we will check if height 
-        of neighbouring cells is greater than current.
+        of neighbouring cells is greater than current. 
 
-        TC: O(ROWS * COLS)
-        SC: O(ROWS * COLS)
+        TC: O(ROWS * COLS) 
+        SC: O(ROWS * COLS) 
         """
         # get the dimensions of the matrix
         ROWS, COLS = len(heights), len(heights[0])
@@ -26,8 +26,8 @@ class Solution:
         def dfs(r, c, visit, prevHeight):
             # if current cell is already visited or
             # cell is out of bouds of heights matrix or
-            # previous cell height is less than current height (remember opp direction traversing)
-            # return since invalid
+            # height of current cell is less than the previous cell (i.e. water can't flow up [opposite direction])
+            # then invalid cell, return
             if ((r, c) in visit or
                 r not in range(ROWS) or
                 c not in range(COLS) or
@@ -35,7 +35,7 @@ class Solution:
 
                 return
 
-            # above if block skipped, means valid, hence add to the respective visit set
+            # above if block skipped, means valid cell, hence add to the respective visit set (pac/atl)
             visit.add((r, c))
 
             # check for cells in all 4 directions of the current cell
